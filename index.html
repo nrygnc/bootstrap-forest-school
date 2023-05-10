@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=selamm, initial-scale=1.0">
+    <title>Forest School-Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+        <div class="container-fluid">
+            <img style="width: 100px;" src="images/logo.png" alt="">
+            <a class="navbar-brand" id="home" href="#">Forest School</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Forest School</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/education.html">Education Programs</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="/contacts.html">Contacts</a>
+                        </li>
+                    </ul>
+                    <form class="btn-group d-flex mt-3" role="search">
+                        <a class="btn btn-info" href="/signin.html">Sign In</a>
+                        <a class="btn btn-success" href="/login.html">Login</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <section>
+        <div class="container mt-5">
+            <div class="row rounded shadow">
+                <div class="col-lg-6 col-sm-12 g-2 p-3">
+                    <h1>Welcome to The Nature School</h1>
+                    <p class="my-3">A community where children learn and shine through authentic experiences in nature to become engaged global citizens. </p>
+                    <span class="lead">- The Nature School Mission</span>
+                </div>
+                <div class="col-lg-6 col-sm-12 g-5 d-flex align-items-center">
+                    <img style="max-width: 100%;" class="img-fluid mb-5 rounded-5" src="images/6.jpeg" alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- carts -->
+    <section id="education" class="d-flex gap-5 flex-wrap justify-content-center  my-5">
+       
+        <!-- kart 2 -->
+        <div class="card d-flex align-items-center justify-content-center" style="width: 18rem;">
+            <img src="images/2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title border-bottom pb-3">Secondary School</h5>
+                <p class="card-text">The Forest School is proud to announce that we will continue expanding our
+                    education program into Secondary School, beginning with the introduction of Year 7 in 2023.  At TNS Secondary,
+                    creativity, problem-solving, independent thinking, communication and collaboration will continue to
+                    be fostered. Building on the strengths of our Primary years, teachers will extend the Learning
+                    Naturally framework to design a robust academic program with an integrated approach to selected
+                    subjects.
+                </p>
+                <a href="#" class="btn btn-success">Learn more</a>
+            </div>
+        </div>
+       
+       
+        <!-- kart 7 -->
+        <div class="card" style="width: 18rem;">
+            <img src="images/8.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title border-bottom pb-3">Swimming</h5>
+                <p class="card-text">Forest School swimming groups are programs that provide children with the
+                    opportunity to learn about water safety, swimming skills, and aquatic environments in natural
+                    settings. These programs include sports such as canoeing and diving. These programs typically take place in rivers, oceans, lakes, or other bodies of water within
+                    forested areas, and are designed to promote outdoor learning and physical activity.
+
+                    Forest School swimming groups organized for different age groups, ranging from
+                    preschoolers to teenagers.
+                </p>
+                <a href="#" class="btn btn-success">Learn more</a>
+            </div>
+        </div>
+        
+        <!-- kart 9 -->
+        <div class="card" style="width: 18rem;">
+            <img src="images/0.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title border-bottom pb-3">Middle school</h5>
+                <p class="card-text">Forest School programs for middle school children may focus on developing
+                    practical outdoor skills and engaging in more challenging outdoor activities such as hiking,
+                    camping, and outdoor cooking. Children may also learn about environmental conservation and
+                    sustainability. Forest School programs also may include advanced outdoor skills such as rock
+                    climbing, canoeing, and wilderness survival. Students may also learn about environmental
+                    science, conservation, and outdoor leadership.
+                </p>
+                <a href="#" class="btn btn-success">Learn more</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- goal -->
+    <section class=" my-5 bg-dark text-light bg-gradient">
+        
+            <div class="row text-center  p-5">
+                <h1>The Nature School Values</h1>
+                <p>We acknowledge the Birpai people who are the traditional custodians of the land on which we learn and work together at The Nature School. We pay our respects to Elders past, present and emerging, and commit to build relationships, respect and opportunities for all Aboriginal and Torres Strait Islander people.</p>
+            </div>
+            <div class=" row g-2 justify-content-between p-4 text-center ">
+                <div class="col-lg-4 col-md-6 col-sm-12 rounded bg-secondary">
+                    <img src="images/c1.png" style="width:350px;height:200px;">
+                    <div class="cardGoal">
+                        <h3 class="text-warning">Connect</h3>
+                        <p class="lead">We value connected learning opportunities, connecting with our community, and connection with
+                            nature.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 px-3 rounded bg-secondary">
+                    <img src="images/c2.png" style="width:350px;height:200px;" alt="">
+                    <div class="cardGoal">
+                        <h3 class="text-warning">Protect</h3>
+                        <p class="lead">We value childhood, protect the rights of children, and advocate for protection of the
+                            environment.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 rounded bg-secondary">
+                    <img src="images/c3.png" class="card-img-top" style="width:350px;height:200px;" alt="">
+                        <div class=" cardGoal">
+                    <h3 class="text-warning">Respect</h3>
+                    <p class="lead">We value self respect, respect for others, and respect for the natural world.</p>
+                </div>
+            </div>
+        
+    </div>
+    
+    <!-- footer  -->
+    <section class="bg-body">
+        <div class="container ">
+            <footer class="py-5">
+                <div class="row g-4">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5 class="text-black fw-light">LEARN MORE</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Primary
+                                    School</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Secondary
+                                    School</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Early Years</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Middle school</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5 class="text-black fw-light">ABOUT</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About The
+                                    School</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Our Team</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5 class="text-black fw-light">GET INVOLVED</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Donate</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Board Members</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Careers</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-md-5 offset-md-1 mb-3">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-primary" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+    
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <div>
+                        <p class="text-dark">&copy; 2023 Company, Inc. All rights reserved.</p>
+                    </div>
+                    <div class="social">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </section>
+   
+
+
+    <!-- Bootstrap script kodları -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
